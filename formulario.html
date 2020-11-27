@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Lição aula 11</title>
+</head>
+<body>
+    <main>
+        <h1>Aula 11 - Formulários</h1><br>
+        <section id="login">
+            <form action="">
+                <h2>Login</h2><br>
+                <input type="text" name="login" id="username" placeholder="username"><br>
+                <input type="password" name="senha" id="password" placeholder="Digite sua senha"><br>
+                <input type="submit" value="Entrar">
+            </form>
+        </section><br>
+        <section>
+            <form action="">
+                <h2>Cadastro</h2>
+                
+                <label for="username" name="cadastro"></label>
+                <input type="text" name="login" id="username" placeholder="username"><br>
+                
+                <input type="password" name="senha" id="password" placeholder="Digite sua senha"><br>
+                <input type="password" name="confirma_senha" id="repassword" placeholder="Confirme a senha"><br>
+                <input type="date" name="idade" id="age" max="27/11/2002"><br>
+                
+                <input type="email" name="email" id="email" placeholder="Digite um e-mail válido"><br>
+                <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF"><br>
+                
+                <input id="ra" name="sexo" id="male" type="radio" value="male">
+                <label for="male">Masculino</label><br>
+                
+                <input id="ra" name="sexo" id="female" type="radio" value="female"> 
+                <label> for="female">Feminino</label><br>
+
+                <input type="radio" name="sexo" id="other" value="other">
+                <label for="other">Outro</label><br>
+                
+                <input type="button" id="cadastrar" value="Cadastrar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
